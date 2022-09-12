@@ -1,0 +1,30 @@
+h1 {
+ color: #ff0000;
+ background-color: #2222D2;
+}
+
+h3 {
+ color: #260C0C;
+ background-color: #3FBF3F;
+}
+
+a:link {
+ color: #FC1111;
+}
+
+a:visited {
+ color: #1DF032;
+}
+
+a:hover {
+ color: #DBF01D;
+}
+
+#divexample {
+  color: #464C00;
+  background-color: #C14747;
+}
+
+.spanstyle {
+   color: #FF8C19
+}
