@@ -1,0 +1,51 @@
+h1 {
+ color: #FFFFFF;
+ background-color: #7F59A5;
+}
+
+#div1 {
+  color: #191919;
+  background-color: #7F59A5;
+}
+
+.orangetext {
+  color: orange;
+}
+
+h2 {
+ color: #3F3FBF;
+
+}
+
+.redtext {
+  color: red;
+
+}
+
+
+h3 {
+  background-color: #BFBF3F;
+
+}
+
+h4 {
+    color: #BFBF3F;
+    background-color: #3FBF3F;
+
+}
+
+.greenback {
+    background-color: green;
+
+}
+
+
+#div2 {
+  background-color: #BFBF3F;
+
+}
+
+h5 {
+    color: #BF3F3F;
+
+}
