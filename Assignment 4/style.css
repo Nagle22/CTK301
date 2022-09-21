@@ -1,11 +1,11 @@
-.customtext {
-  font-family: sans-serif, Arial, Helvetica;
+body {
+  font-family: Helvetica, Arial, sans-serif;
 
 }
 
 
 .fontcombined {
-font: bold 20px sans-serif, Arial, Helvetica;
+font: bold 20px Helvetica, Arial, sans-serif;
 }
 
 .textcenter {
