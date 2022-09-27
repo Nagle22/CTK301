@@ -1,0 +1,61 @@
+h1 {
+  border: 1px solid #260C0C;
+  padding: 10px;
+  background-color: #FFFFFF
+}
+
+h2 {
+  border: 1px solid #260C0C;
+  padding: 10px;
+  background-color: #FFFFFF
+}
+
+p {
+  border: 1px solid #260C0C;
+  padding: 10px;
+  background-color: #FFFFFF
+}
+
+nav p {
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  background-color: #00006B;
+  color: #FFFFFF;
+}
+
+nav h1 {
+  font-style: Helvetica;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav li {
+  background-color: blue;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 0px;
+  width: 200px;
+  display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+Nav li a:hover {
+    background-color: #3F3FBF
+
+}
+
+body {
+  background-image: url(a5bg.png);
+
+}
