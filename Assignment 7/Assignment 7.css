@@ -1,0 +1,110 @@
+body { background-color: lightgrey; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 3px solid darkblue;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: darkblue;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  font-family: Helvetica, sans-serif;
+}
+
+nav li a {
+  display: block;
+  background-color: blue;
+  padding: 1em;
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+nav li a:hover {
+  background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+
+}
+
+h1 {
+  margin-left: 10px;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+
+}
+
+header {
+    grid-column: span 6;
+    background-color: darkblue;
+      border-bottom: 5px solid darkblue;
+      font-family: Helvetica, sans-serif;
+      color: lightblue;
+}
+
+nav {
+  grid-column: span 6;
+}
+
+main {
+  grid-column: span 6;
+  padding: 10px;
+
+}
+
+footer {
+  background-color: red;
+  grid-column: span 6;
+  border-top: 3px solid darkblue;
+}
+
+
+main h2 {
+  border-bottom: 3px solid darkblue
+}
+
+h2 {
+  border-bottom: 2px solid blue;
+  margin: 0;
+  color: darkblue;
+  font-family: Helvetica, sans-serif;
+}
+
+.Bold {
+  font-weight: bold;
+  font-style: Helvetica, sans-serif;
+}
+
+.floatimgleft {
+float: left;
+border: 3px solid darkblue;
+margin: 10px;
+}
+
+
+.floatimgright {
+float: right;
+border: 3px solid darkblue;
+margin: 10px;
+}
+
+.floatimg {
+  margin: 10px;
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
