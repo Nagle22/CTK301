@@ -1,0 +1,103 @@
+body { background-color: lightgrey; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  background-color: Darkred;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: Darkred;
+  font-family: Helvetica, sans-serif;
+}
+
+nav li a {
+  display: block;
+  background-color: Darkred;
+  padding: 1em;
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+  text-align: center
+}
+
+
+h1 {
+  margin-left: 10px;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+
+}
+
+header {
+    grid-column: span 6;
+    background-color: darkred;
+      border-bottom: 5px solid darkred;
+      font-family: Helvetica, sans-serif;
+      color: white;
+}
+
+nav {
+  grid-column: span 6;
+}
+
+main {
+  grid-column: span 6;
+  padding: 10px;
+
+}
+
+footer {
+  background-color: Darkred;
+  grid-column: span 6;
+  border-top: 3px solid Darkred;
+}
+
+
+main h2 {
+  border-bottom: 3px solid Darkred
+}
+
+h2 {
+  border-bottom: 2px solid Darkred;
+  margin: 0;
+  color: Darkred;
+  font-family: Helvetica, sans-serif;
+}
+
+.Bold {
+  font-weight: bold;
+  font-style: Helvetica, sans-serif;
+}
+
+.floatimgleft {
+float: left;
+border: 3px solid Darkred;
+margin: 10px;
+}
+
+
+.floatimgright {
+float: right;
+border: 3px solid Darkred;
+margin: 10px;
+}
+
+.floatimg {
+  margin: 10px;
+  float: center;
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+}

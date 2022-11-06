@@ -1,0 +1,103 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+
+
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+
+
+nav li {
+  width: 200px;
+  display: inline-block;
+}
+
+
+nav li a {
+  display: block;
+  background-color: Darkred;
+  padding: 1em;
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+  text-align: center
+}
+
+
+h1 {
+  margin-left: 10px;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+
+}
+
+header {
+    grid-column: span 6;
+    background-color: darkred;
+      border-bottom: 5px  darkred;
+      font-family: Helvetica, sans-serif;
+      color: white;
+}
+
+
+
+main {
+  grid-column: span 6;
+  padding: 10px;
+
+}
+
+footer {
+  background-color: darkred;
+  grid-column: span 6;
+  border-top: 3px solid darkred;
+  color: white;
+}
+
+
+main h2 {
+  border-bottom: 3px solid Darkred
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  margin: 0;
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+.Bold {
+  font-weight: bold;
+  font-style: Helvetica, sans-serif;
+}
+
+.floatimgleft {
+float: left;
+border: 3px solid Darkred;
+margin: 10px;
+}
+
+
+.floatimgright {
+float: right;
+border: 3px solid Darkred;
+margin: 10px;
+}
+
+.floatimg {
+  margin: 10px;
+  float: center;
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+}
