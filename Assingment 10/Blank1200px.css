@@ -8,12 +8,18 @@ body {
   border: 1px solid black;
   padding: 24px;
   background-color: #ffffff;
-
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
 
 }
 
 /* style for dummy columns, delete and replace with your own CSS */
 
+nav {
+grid-column: span 12;
+
+}
 
 nav li {
   width: 200px;
@@ -40,7 +46,7 @@ h1 {
 }
 
 header {
-    grid-column: span 6;
+    grid-column: span 12;
     background-color: darkred;
       border-bottom: 5px  darkred;
       font-family: Helvetica, sans-serif;
@@ -50,14 +56,14 @@ header {
 
 
 main {
-  grid-column: span 6;
+  grid-column: span 12;
   padding: 10px;
 
 }
 
 footer {
   background-color: darkred;
-  grid-column: span 6;
+  grid-column: span 12;
   border-top: 3px solid darkred;
   color: white;
 }
@@ -93,7 +99,7 @@ margin: 10px;
 }
 
 .floatimg {
-  margin: 10px;
+  margin: 12px;
   float: center;
 }
 
