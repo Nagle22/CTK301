@@ -1,0 +1,178 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+
+nav {
+grid-column: span 12;
+
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+}
+
+
+nav li a {
+  display: block;
+  background-color: Darkred;
+  padding: 1em;
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+  text-align: center
+}
+
+
+h1 {
+  margin-left: 10px;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+
+}
+
+header {
+    grid-column: span 12;
+    background-color: darkred;
+      border-bottom: 5px  darkred;
+      font-family: Helvetica, sans-serif;
+      color: white;
+}
+
+
+
+main {
+  grid-column: span 12;
+  padding: 10px;
+
+}
+
+footer {
+  background-color: darkred;
+  grid-column: span 12;
+  border-top: 3px solid darkred;
+  color: white;
+}
+
+
+main h2 {
+  border-bottom: 3px solid Darkred
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  margin: 0;
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+.Bold {
+  font-weight: bold;
+  font-style: Helvetica, sans-serif;
+}
+
+.floatimgleft {
+float: left;
+border: 3px solid Darkred;
+margin: 10px;
+}
+
+
+.floatimgright {
+float: right;
+border: 3px solid Darkred;
+margin: 10px;
+}
+
+.floatimg {
+  margin: 12px;
+  float: center;
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.roundedbox {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.roundedbox2 {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #ccc;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+}
+
+.circle {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: 3px solid green;
+  background-color: red;
+  color: white;
+  border-radius: 500px;
+}
+
+.dropshadowbox {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
+}
+
+.textshadowbox {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #369;
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #003300;
+  width: 1;
+  color: white;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+nav a:hover {
+  background-color: #00ff00;
+  width: 200px;
+  color: black;
+}
+
+h1 {font-family: 'Kaushan Script', cursive; }
